@@ -26,9 +26,8 @@ spec:
           - /bin/sh
           - -c
           - |
-            # simulate a safe request without logging Authorization header
             while true; do
-              curl -s http://httpbin.org/get
+              curl -s -H 'Authorization:' http://httpbin.org/get
               sleep 15
             done
         resources:

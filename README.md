@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kubernetes Monitoring & Failure Simulation Project
 
 ## Overview
@@ -177,3 +178,7 @@ This project demonstrates a Kubernetes monitoring setup using the **kube-prometh
 ```
 
 ---
+=======
+# minikube
+# minikube
+>>>>>>> e93d92e (jsonchanges)
